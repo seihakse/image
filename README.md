@@ -1,3 +1,5 @@
+****<command this to run in cmd >yt-dlp -a fileexample.txt***
+
 // Using var in the global part of the script so that the script can be re-used also in WebKit & Gecko
 var scriptOptions = {
     scrolling_min_time: 1300, // Change the mininum time the script will try to refresh the page
@@ -210,3 +212,4 @@ function startDownload(name) {
 }
 nodeElaborateCustomArgs();
 startDownload(); // Add as an argument a custom file name (or a custom file type value), or edit it from the scriptOptions.output_name_type
+
